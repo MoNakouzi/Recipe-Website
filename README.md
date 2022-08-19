@@ -6,7 +6,7 @@ Some libraries that were used are <a href="https://v5.reactrouter.com/web/guides
 
 <details>
   <summary>
-    Getting started with React and Available Scripts
+    ##Getting started with React and Available Scripts
   </summary>
   <br>
   # Getting Started with Create React App
