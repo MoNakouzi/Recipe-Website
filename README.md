@@ -1,15 +1,18 @@
 ## About This Project
 
-First project I built using React. The website is currently hosted on netlify <a href="https://mo-recipe-website.netlify.app/" target="_blank">here</a>, check it out!
-The API used by the project to generate recipes is <a href="https://www.themealdb.com/api.php" target="_blank">TheMealDB API</a>.
-Some libraries that were used are <a href="https://v5.reactrouter.com/web/guides/quick-start" target="_blank">React Router Dom</a>, and <a href="https://www.npmjs.com/package/axios" target="_blank">Axios</a>.
+First project I built using React; a website called "The Cutting Board". The Cutting Board allows you to search for hundreds of recipes just by typing in a keyword/ingredient of that recipe, and also provides you with the category and origin of the meals that it finds. A recipe and a video tutorial are provided too. The website is currently hosted on netlify [here](https://mo-recipe-website.netlify.app/), check it out!
+
+The API used by the project to generate recipes is [TheMealDB API](https://www.themealdb.com/api.php). Some libraries that were used are [React Router Dom](https://v5.reactrouter.com/web/guides/quick-start) and [Axios](https://www.npmjs.com/package/axios).
+
+<br/>
 
 <details>
   <summary>
-    ##Getting started with React and Available Scripts
+    Getting started with React and Available Scripts
   </summary>
-  <br>
-  # Getting Started with Create React App
+  <br/>
+  
+  ## Getting Started with Create React App
 
   This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
