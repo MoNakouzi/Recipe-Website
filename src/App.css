@@ -6,11 +6,12 @@
 /* LANDING PAGE */
 
 .landing-body{
-    background-image:url('https://img.freepik.com/free-photo/frame-vegetables-herbs-light-table-cooking-background-view-from-cooking-ingredients-background-menu-table-copy-space_88526-1614.jpg?w=2000');
+    background-image: url('https://img.freepik.com/free-photo/frame-vegetables-herbs-light-table-cooking-background-view-from-cooking-ingredients-background-menu-table-copy-space_88526-1614.jpg?w=2000');
     height: 100vh;
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    position: relative;
 }
 
 .centered{
@@ -30,7 +31,6 @@
 
 .search-input{
     display: flex;
-    width: 700px;
     padding: 12px 24px;
     background-color: transparent;
     transition: transform 250ms ease-in-out;
@@ -38,10 +38,8 @@
     font-size: 14px;
     line-height: 18px;
     color: #575756;
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cpath d='M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z'/%3E%3Cpath d='M0 0h24v24H0z' fill='none'/%3E%3C/svg%3E");
-    background-repeat: no-repeat;
-    background-size: 22px 22px;
-    background-position: 97% center;
+    width: 45vw;
+    align-items: center;
     border-radius: 50px;
     border: 3px solid #575756;
     transition: all 250ms ease-in-out;
@@ -52,9 +50,33 @@
     letter-spacing: 1.5px;
 }
 
+.submit-btn{
+    cursor: pointer;
+    background-color: transparent;
+    size: 22px 22px;
+    border: transparent;
+}
+
+form {
+    /* This bit sets up the horizontal layout */
+    display:flex;
+    flex-direction:row;
+    
+    /* This bit draws the box around it */
+    border: transparent;
+  }
+  
+  input {
+    /* Tell the input to use all the available space */
+    flex-grow: 2;
+
+    /* And hide the input's outline, so the form looks like the outline */
+    border:none;
+  }
+
 input::placeholder{
     color: black;
-    text-shadow: 0.5px 0.5px #ffffff;
+    text-shadow: 0.5px 0.5px #8e8e8e;
     text-transform: uppercase;
     background-position: 100% center;
 }
@@ -66,10 +88,7 @@ input:hover,input:focus{
     border-bottom: 1px solid #575756;
     border-radius: 0;
     background-position: 100% center;
-}
-
-.submit-btn{
-    display: none;
+    color: black;
 }
 
 
@@ -127,7 +146,7 @@ input:hover,input:focus{
 
 .searched-container{
     display: flex;
-    width: 1800px;
+    width: 95vw;
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
@@ -176,7 +195,7 @@ input:hover,input:focus{
     border-radius: 50px;
     font-size: 14px;
     color: #ffffff;
-    padding: 10px 20px;
+    padding: 9px 20px;
     cursor: pointer;
     text-decoration: none;
 }

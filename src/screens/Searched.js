@@ -69,8 +69,8 @@ function Searched() {
                       <p>Meal tags: {item.strTags}</p>
 
                       <div class='tag-container'>
-                        <a class='tag' target='_blank' rel='noreferrer' href={item.strSource}>Recipe</a>
-                        <a class='tag' target='_blank' rel='noreferrer' href={item.strYoutube}>Video Tutorial</a>
+                        <a class='tag' target='_blank' rel='noreferrer' href={item.strSource} title='Recipe Website'>Recipe</a>
+                        <a class='tag' target='_blank' rel='noreferrer' href={item.strYoutube} title='Recipe Video'>Video Tutorial</a>
                       </div>
 
                     </div>
